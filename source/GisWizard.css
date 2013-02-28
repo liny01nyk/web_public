@@ -1,0 +1,11 @@
+element {
+    -webkit-overflow-scrolling: touch;
+}
+
+element > * {
+    -webkit-transform: translateZ(0px);
+}
+
+.wide {
+    min-width: 100%;
+}
