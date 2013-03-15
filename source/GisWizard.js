@@ -130,7 +130,7 @@ enyo.kind({
           postBody.action = "nyk_cm_tasks.deploy.gis.import_map";
           postBody.map_name = item.item;
           postBody.map_deploy_comment = item.version;
-        } else if (item.type == "env") {
+        } else if (item.type == "envelope") {
           postBody.action = "nyk_cm_tasks.deploy.gis.import_resource";
           postBody.res_name = item.item;
         }
